@@ -31,8 +31,10 @@ IBM PC совместимая процессорная плата на базе 
 ## Images
 Изображения версии 0.3 в папке images/0.3
 
-<img src="images/0.3/photo_2025-03-05_13-04-52-1.jpg" alt="Alt text" width="240" height="320">
-<img src="images/0.3/photo_2025-03-05_13-04-52-2.jpg" alt="Alt text" width="240" height="320">
+<img src="images/0.3/frontside.jpg" alt="front" width="320" height="228">
+<img src="images/0.3/backside.jpg" alt="back" width="320" height="228">
+<img src="images/0.3/photo_2025-03-05_13-04-52-1.jpg" alt="in work 1" width="240" height="320">
+<img src="images/0.3/photo_2025-03-05_13-04-52-2.jpg" alt="in work 2" width="240" height="320">
 
 
 ## Related projects
