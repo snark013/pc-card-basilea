@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "basilea")(type "KiCad")(uri "${KIPRJMOD}/basilea.pretty")(options "")(descr ""))
+  (lib (name "Modules")(type "KiCad")(uri "${KIPRJMOD}/Modules.pretty")(options "")(descr ""))
+)
