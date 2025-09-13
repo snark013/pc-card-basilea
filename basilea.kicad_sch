@@ -5,9 +5,9 @@
 	(uuid "895fa090-e1df-4200-a112-cb7c4b9368aa")
 	(paper "A2")
 	(title_block
-		(title "PC-KHARON-386-MAIN-ISA16-SIMM72")
-		(date "2024-11-12")
-		(rev "A2")
+		(title "BASILEA-386-MAIN-ISA16-SIMM72")
+		(date "2025-09-13")
+		(rev "1.2.2")
 		(company "Alex Petrov")
 		(comment 1 "ISA16 386SX IBM PC-compatible board with CF/RAM/Serials")
 	)
