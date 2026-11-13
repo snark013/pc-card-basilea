@@ -22,7 +22,7 @@ A 32 MB RAM configuration using two 16 MB SIMMs has been tested. Mixed EDO and F
 - Two 72-pin SIMM slots supporting up to 32 MB of RAM.
 - EDO and FPM memory support.
 - PS/2 keyboard and mouse ports.
-- Two serial COM ports.
+- Two serial COM ports available for external connections.
 - CompactFlash (CF) card slot.
 - Battery-backed real-time clock (RTC).
 - PC speaker.
@@ -35,6 +35,16 @@ The board provides two 72-pin SIMM slots and supports up to 32 MB of RAM. A conf
 - Modules whose memory chips use different numbers of row and column address bits may also be detected at less than their full capacity.
 - Both EDO and FPM modules are supported. Using two modules of different types together has not been tested and is not guaranteed to work.
 
+## BIOS
+
+The [roms/](roms/) directory contains separate AWARD and AMI BIOS images, as well as a combined image containing both versions. When using the combined image, SW1 selects the BIOS version.
+
+**The AMI BIOS is recommended.**
+
+## Serial ports
+
+The serial controller provides four COM ports, all of which are detected by the system. Only two ports are routed on the PCB and available for external connections.
+
 ## Project files
 
 - [basilea.kicad_pro](basilea.kicad_pro) — KiCad project.
@@ -42,6 +52,7 @@ The board provides two 72-pin SIMM slots and supports up to 32 MB of RAM. A conf
 - [basilea.kicad_pcb](basilea.kicad_pcb) — PCB layout.
 - [basilea.pretty/](basilea.pretty/) and [Modules.pretty/](Modules.pretty/) — local footprint libraries.
 - [docs/](docs/) — reference documentation.
+- [roms/](roms/) — AWARD, AMI, and combined BIOS images.
 - [release/](release/) — release files: Gerber files, PDF schematics, and interactive bills of materials.
 - [images/1.2.2/](images/1.2.2/) — photos of the assembled version 1.2.2 board.
 
